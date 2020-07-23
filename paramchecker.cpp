@@ -30,7 +30,7 @@ class interface_limit
   float lower_limit;
 };
   
-class bpmeasure :public interface_limit
+class bpmeasure 
 {
   float bpm;
   interface_limit interface_limit_obj1.upper_limit = 150;
@@ -44,7 +44,7 @@ class bpmeasure :public interface_limit
   }
   
 };
-class spo2measure :public interface_limit
+class spo2measure 
 {
   float spo2;
   interface_limit interface_limit_obj2.upper_limit = 100;
@@ -58,7 +58,7 @@ class spo2measure :public interface_limit
   }
   
 };
-class respratemeasure :public interface_limit
+class respratemeasure
 {
   float resp_rate;
   interface_limit interface_limit_obj2.upper_limit = 80;
